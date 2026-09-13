@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-28 pb-20 px-6 overflow-hidden">
       {/* Photo de la devanture en arrière-plan */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0">
         <img
           src={storefront}
           alt="Devanture du magasin Euro Bengale, alimentation générale à La Courneuve"
