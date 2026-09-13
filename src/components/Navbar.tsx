@@ -22,11 +22,11 @@ const Navbar = () => {
         className="w-full max-w-6xl card rounded-2xl px-5 md:px-8 py-3.5 flex items-center justify-between"
       >
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-accent text-white">
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-brand text-white">
             <ShoppingBasket size={20} />
           </div>
           <div className="leading-none">
-            <span className="text-lg md:text-xl font-extrabold tracking-tight block">Euro Bengale</span>
+            <span className="text-lg md:text-xl font-extrabold tracking-tight block text-brand">Euro Bengale</span>
             <span className="text-[10px] md:text-[11px] uppercase tracking-[0.18em] text-muted-foreground">{t.tagline}</span>
           </div>
         </div>

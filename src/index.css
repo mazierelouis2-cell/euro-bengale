@@ -7,6 +7,8 @@
   --color-muted-foreground: #6b7066;
   --color-accent: #16a34a;
   --color-accent-foreground: #ffffff;
+  --color-brand: #d81f26;
+  --color-brand-foreground: #ffffff;
   --color-warm: #ea580c;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
