@@ -1,0 +1,30 @@
+{
+  "id": "b16cfa82-2892-4bdb-92d7-e7e81b4231c3",
+  "state": "current",
+  "plan": "nf_team_dev",
+  "name": "euro-bengale-lacourneuve",
+  "custom_domain": null,
+  "domain_aliases": [],
+  "url": "http://euro-bengale-lacourneuve.netlify.app",
+  "ssl_url": "https://euro-bengale-lacourneuve.netlify.app",
+  "admin_url": "https://app.netlify.com/projects/euro-bengale-lacourneuve",
+  "screenshot_url": null,
+  "created_at": "2026-09-13T18:24:40.373Z",
+  "updated_at": "2026-09-13T18:24:40.373Z",
+  "user_id": "6a99b251b5a41b00f0e27216",
+  "ssl": false,
+  "force_ssl": null,
+  "managed_dns": true,
+  "deploy_url": "http://6aa6ea689a24fcbcf575670e--euro-bengale-lacourneuve.netlify.app",
+  "account_name": "mazierelouis2’s team",
+  "account_slug": "mazierelouis2",
+  "deploy_hook": null,
+  "capabilities": {
+    "cdn_tier": "reg",
+    "deploy_diagnostics": false,
+    "ai_usage_enabled": true,
+    "ai_gateway_disabled": false,
+    "dev_server_enabled": true
+  },
+  "id_domain": "b16cfa82-2892-4bdb-92d7-e7e81b4231c3.netlify.app"
+}

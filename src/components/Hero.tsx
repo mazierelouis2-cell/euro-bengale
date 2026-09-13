@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Clock, MapPin } from 'lucide-react';
 import { useI18n } from '../i18n';
-
-const produce = ['🍎', '🥬', '🍅', '🥖', '🧅', '🍌', '🥕', '🫑', '🍊', '🥔', '🌶️', '🧀'];
+import storefront from '../assets/storefront.jpg';
 
 const Hero = () => {
   const { t } = useI18n();
@@ -47,19 +46,20 @@ const Hero = () => {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.15 }} className="relative">
-          <div className="card rounded-3xl p-8 bg-gradient-to-br from-accent/5 to-warm/5">
-            <div className="grid grid-cols-4 gap-4">
-              {produce.map((emoji, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.3 + i * 0.05 }}
-                  className="aspect-square bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm"
-                >
-                  {emoji}
-                </motion.div>
-              ))}
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5">
+            <img
+              src={storefront}
+              alt="Devanture du magasin Euro Bengale, alimentation générale à La Courneuve"
+              className="w-full aspect-[16/11] object-cover"
+              loading="eager"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+            <div className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur text-xs font-bold text-accent shadow-sm">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+              </span>
+              {t.contact.open7}
             </div>
           </div>
           <div className="absolute -bottom-4 -left-4 card rounded-2xl px-5 py-3 flex items-center gap-3">
